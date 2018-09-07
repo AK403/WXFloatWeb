@@ -89,21 +89,22 @@
         WXFloatWindow *floatWindow = manager.floatWindow;
         WXFloatIcon *floatIcon = (WXFloatIcon *)floatWindow.floatIcon;
         
-//        if ([floatIcon.imageView respondsToSelector:@selector(sd_setImageWithURL:)])
-//        {
+        #pragma clang diagnostic push
+        #pragma clang diagnostic ignored "-Wundeclared-selector"
+        if ([floatIcon.imageView respondsToSelector:@selector(sd_setImageWithURL:)])
+        {
             NSURL *URL = weakSelf.webContainerView.webView.URL;
-            if(URL){
+            if(URL)
+            {
                 NSString *scheme = URL.scheme;
                 NSString *host = URL.host;
-                
                 NSString *imageUrlStr = [NSString stringWithFormat:@"%@://%@/favicon.ico",scheme,host];
                 NSURL *imageURL = [NSURL URLWithString:imageUrlStr];
                 
                 [floatIcon.imageView performSelector:@selector(sd_setImageWithURL:) withObject:imageURL];
-//                [floatIcon.imageView sd_setImageWithURL:imageURL];
             }
-
-//        }
+        }
+        #pragma clang diagnostic pop
     }];
 }
 

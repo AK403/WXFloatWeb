@@ -144,7 +144,12 @@
         _webView.scrollView.delegate = self;
         _webView.clipsToBounds = NO;
         _webView.scrollView.clipsToBounds = NO;
-        _webView.allowsLinkPreview = NO;
+        
+        
+        if (@available(iOS 9.0, *))
+        {
+            _webView.allowsLinkPreview = NO;
+        }
         if (@available(iOS 11.0, *))
         {
             _webView.insetsLayoutMarginsFromSafeArea = NO;
