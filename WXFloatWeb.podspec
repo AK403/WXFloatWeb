@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.summary = 'WXFloatWeb'
   s.homepage = 'https://github.com/AK403/WXFloatWeb'
   s.author = { 'AK403' => 'AK403@qq.com' }
-  s.source = { :git => 'https://github.com/AK403/WXFloatWeb.git', :commit => '11b24d036fd82a7835255426bb7a8995811acc33' }
+  s.source = { :git => 'https://github.com/AK403/WXFloatWeb.git', :tag => s.version.to_s}
   s.frameworks   = 'WebKit'  
   s.description = 'This library provides ability for App with support Floating Window and'    \
                   'WebContainerView like Wechat'
@@ -24,14 +24,14 @@ Pod::Spec.new do |s|
 
   s.subspec 'WXStyleWebContainerView' do |styleWebView|
     styleWebView.ios.deployment_target = '8.0'
-    styleWebView.source_files = 'WXStyleWebContainerView/WXStyleWebContainerView/*/*.{h,m,mm}'
+    styleWebView.source_files = 'WXStyleWebContainerView/WXStyleWebContainerView/*/*.{h,m,mm}','WXStyleWebContainerView/WXStyleWebContainerView/*.{h,m,mm}'
     styleWebView.resources = 'WXStyleWebContainerView/WXStyleWebContainerView/Resource/WXStyleWebContainerView.bundle'
   end
 
   s.subspec 'WXStyleWebViewController' do |styleWebViewController|
 
     styleWebViewController.source_files = 'WXFloatWebDemo/WXFloatWebDemo/WXStyleWebViewController/*.{h,m}'
-    styleWebViewController.resources = 'WXFloatWebDemo/WXFloatWebDemo/WXStyleWebViewController/WXStyleWebViewController.bundle'
+    styleWebViewController.resources = 'WXFloatWebDemo/WXFloatWebDemo/WXStyleWebViewController/Resource/WXStyleWebViewController.bundle'
     styleWebViewController.dependency 'WXFloatWeb/WXFloatSDK'
     styleWebViewController.dependency 'WXFloatWeb/WXStyleWebContainerView'
   end
