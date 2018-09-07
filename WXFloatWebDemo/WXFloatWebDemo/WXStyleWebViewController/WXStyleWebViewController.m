@@ -12,7 +12,6 @@
 #import <UIColor+WXStyle.h>
 #import <UIViewController+WXFloat.h>
 #import <WXFloatManager.h>
-//#import <UIImageView+WebCache.h>
 
 #define WXStyleWebController_SrcName(file)               [@"WXStyleWebViewController.bundle" stringByAppendingPathComponent:file]
 #define WXStyleWebController_FrameworkSrcName(file)      [@"WXStyleWebViewController.framework/WXStyleWebViewController.bundle" stringByAppendingPathComponent:file]
