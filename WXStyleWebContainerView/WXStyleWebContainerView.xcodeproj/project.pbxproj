@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C900CCB921428992006D2B55 /* WXStyleWebContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C900CCB821428992006D2B55 /* WXStyleWebContainerView.m */; };
+		C900CCBA21428992006D2B55 /* WXStyleWebContainerView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C900CCB721428992006D2B55 /* WXStyleWebContainerView.h */; };
+		C900CCC9214289C3006D2B55 /* WXStyleWebViewUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C900CCC2214289C3006D2B55 /* WXStyleWebViewUtil.m */; };
+		C900CCCA214289C3006D2B55 /* UIColor+WXStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = C900CCC4214289C3006D2B55 /* UIColor+WXStyle.m */; };
+		C900CCCB214289C3006D2B55 /* UIView+WXStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = C900CCC6214289C3006D2B55 /* UIView+WXStyle.m */; };
+		C900CCD321428A7F006D2B55 /* WXStyleBottomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C900CCCF21428A7E006D2B55 /* WXStyleBottomBar.m */; };
+		C900CCD421428A7F006D2B55 /* WXStyleProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C900CCD021428A7E006D2B55 /* WXStyleProgressBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C900CCB221428992006D2B55 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C900CCBA21428992006D2B55 /* WXStyleWebContainerView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C900CCB421428992006D2B55 /* libWXStyleWebContainerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWXStyleWebContainerView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C900CCB721428992006D2B55 /* WXStyleWebContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXStyleWebContainerView.h; sourceTree = "<group>"; };
+		C900CCB821428992006D2B55 /* WXStyleWebContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXStyleWebContainerView.m; sourceTree = "<group>"; };
+		C900CCC1214289C3006D2B55 /* UIColor+WXStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WXStyle.h"; sourceTree = "<group>"; };
+		C900CCC2214289C3006D2B55 /* WXStyleWebViewUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXStyleWebViewUtil.m; sourceTree = "<group>"; };
+		C900CCC3214289C3006D2B55 /* UIView+WXStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WXStyle.h"; sourceTree = "<group>"; };
+		C900CCC4214289C3006D2B55 /* UIColor+WXStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WXStyle.m"; sourceTree = "<group>"; };
+		C900CCC5214289C3006D2B55 /* WXStyleWebViewUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXStyleWebViewUtil.h; sourceTree = "<group>"; };
+		C900CCC6214289C3006D2B55 /* UIView+WXStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WXStyle.m"; sourceTree = "<group>"; };
+		C900CCC8214289C3006D2B55 /* WXStyleWebContainerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WXStyleWebContainerView.bundle; sourceTree = "<group>"; };
+		C900CCCF21428A7E006D2B55 /* WXStyleBottomBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXStyleBottomBar.m; sourceTree = "<group>"; };
+		C900CCD021428A7E006D2B55 /* WXStyleProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXStyleProgressBar.m; sourceTree = "<group>"; };
+		C900CCD121428A7E006D2B55 /* WXStyleBottomBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXStyleBottomBar.h; sourceTree = "<group>"; };
+		C900CCD221428A7E006D2B55 /* WXStyleProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXStyleProgressBar.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C900CCB121428992006D2B55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C900CCAB21428992006D2B55 = {
+			isa = PBXGroup;
+			children = (
+				C900CCB621428992006D2B55 /* WXStyleWebContainerView */,
+				C900CCB521428992006D2B55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C900CCB521428992006D2B55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C900CCB421428992006D2B55 /* libWXStyleWebContainerView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C900CCB621428992006D2B55 /* WXStyleWebContainerView */ = {
+			isa = PBXGroup;
+			children = (
+				C900CCCE21428A7E006D2B55 /* UIControl */,
+				C900CCC7214289C3006D2B55 /* Resource */,
+				C900CCC0214289C3006D2B55 /* Util */,
+				C900CCB721428992006D2B55 /* WXStyleWebContainerView.h */,
+				C900CCB821428992006D2B55 /* WXStyleWebContainerView.m */,
+			);
+			path = WXStyleWebContainerView;
+			sourceTree = "<group>";
+		};
+		C900CCC0214289C3006D2B55 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				C900CCC1214289C3006D2B55 /* UIColor+WXStyle.h */,
+				C900CCC4214289C3006D2B55 /* UIColor+WXStyle.m */,
+				C900CCC3214289C3006D2B55 /* UIView+WXStyle.h */,
+				C900CCC6214289C3006D2B55 /* UIView+WXStyle.m */,
+				C900CCC5214289C3006D2B55 /* WXStyleWebViewUtil.h */,
+				C900CCC2214289C3006D2B55 /* WXStyleWebViewUtil.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		C900CCC7214289C3006D2B55 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C900CCC8214289C3006D2B55 /* WXStyleWebContainerView.bundle */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C900CCCE21428A7E006D2B55 /* UIControl */ = {
+			isa = PBXGroup;
+			children = (
+				C900CCD121428A7E006D2B55 /* WXStyleBottomBar.h */,
+				C900CCCF21428A7E006D2B55 /* WXStyleBottomBar.m */,
+				C900CCD221428A7E006D2B55 /* WXStyleProgressBar.h */,
+				C900CCD021428A7E006D2B55 /* WXStyleProgressBar.m */,
+			);
+			path = UIControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C900CCB321428992006D2B55 /* WXStyleWebContainerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C900CCBD21428992006D2B55 /* Build configuration list for PBXNativeTarget "WXStyleWebContainerView" */;
+			buildPhases = (
+				C900CCB021428992006D2B55 /* Sources */,
+				C900CCB121428992006D2B55 /* Frameworks */,
+				C900CCB221428992006D2B55 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WXStyleWebContainerView;
+			productName = WXStyleWebContainerView;
+			productReference = C900CCB421428992006D2B55 /* libWXStyleWebContainerView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C900CCAC21428992006D2B55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "刘运璇";
+				TargetAttributes = {
+					C900CCB321428992006D2B55 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C900CCAF21428992006D2B55 /* Build configuration list for PBXProject "WXStyleWebContainerView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C900CCAB21428992006D2B55;
+			productRefGroup = C900CCB521428992006D2B55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C900CCB321428992006D2B55 /* WXStyleWebContainerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C900CCB021428992006D2B55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C900CCC9214289C3006D2B55 /* WXStyleWebViewUtil.m in Sources */,
+				C900CCD421428A7F006D2B55 /* WXStyleProgressBar.m in Sources */,
+				C900CCB921428992006D2B55 /* WXStyleWebContainerView.m in Sources */,
+				C900CCCA214289C3006D2B55 /* UIColor+WXStyle.m in Sources */,
+				C900CCD321428A7F006D2B55 /* WXStyleBottomBar.m in Sources */,
+				C900CCCB214289C3006D2B55 /* UIView+WXStyle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C900CCBB21428992006D2B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C900CCBC21428992006D2B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C900CCBE21428992006D2B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2R53HN933A;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C900CCBF21428992006D2B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2R53HN933A;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C900CCAF21428992006D2B55 /* Build configuration list for PBXProject "WXStyleWebContainerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C900CCBB21428992006D2B55 /* Debug */,
+				C900CCBC21428992006D2B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C900CCBD21428992006D2B55 /* Build configuration list for PBXNativeTarget "WXStyleWebContainerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C900CCBE21428992006D2B55 /* Debug */,
+				C900CCBF21428992006D2B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C900CCAC21428992006D2B55 /* Project object */;
+}
